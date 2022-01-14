@@ -1,0 +1,523 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>home_page</title>
+  </head>
+  <body>
+    <div class="loader">
+        <div class="loader-centered">
+            <div class="object square-one"></div>
+            <div class="object square-two"></div>
+            <div class="object square-three"></div>
+        </div>
+    </div>
+
+    <div class="menu-bar">
+      <h1 class="logo">sơn<span>&nbsp;dzvcl</span></h1>
+      <ul>
+        <li><a href="#">Trang Chủ</a></li>
+        <li><a href="#">Đặt Hàng</a></li>
+        <li><a href="#">Mua Sắm <i class="fas fa-caret-down"></i></a>
+
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li>
+                    <a href="#">Team <i class=""></i></a>
+                    
+                    <div class="dropdown-menu-1">
+                    </div>
+                  </li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+        </li>
+        <li><a href="#">App mobie</a>
+        </li>
+        <li><a href="#">Hỗ Trợ</a></li>
+      </ul>
+    </div>
+    <br>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xl-3">
+                <div class="card bg-c-blue order-card">
+                    <div class="card-block">
+                        <h6 class="m-b-20">Đơn đặt hàng nhận được
+                        </h6>
+                        <h2 class="text-right"><i class="fa fa-cart-plus f-left"></i><span>486</span></h2>
+                        <p class="m-b-0">Đơn hàng đã giao<span class="f-right">351</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-xl-3">
+                <div class="card bg-c-green order-card">
+                    <div class="card-block">
+                        <h6 class="m-b-20">Đơn hàng dang vận chuyển</h6>
+                        <h2 class="text-right"><i class="fa fa-rocket f-left"></i><span>486</span></h2>
+                        <p class="m-b-0">Dang thụ lý<span class="f-right">351</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-xl-3">
+                <div class="card bg-c-yellow order-card">
+                    <div class="card-block">
+                        <h6 class="m-b-20">Đơn hàng dang chờ</h6>
+                        <h2 class="text-right"><i class="fa fa-refresh f-left"></i><span>486</span></h2>
+                        <p class="m-b-0">Chờ Duyệt<span class="f-right">351</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-xl-3">
+                <div class="card bg-c-pink order-card">
+                    <div class="card-block">
+                        <h6 class="m-b-20">Đơn hàng chờ thanh toán</h6>
+                        <h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span>486</span></h2>
+                        <p class="m-b-0">Tổng thanh toán<span class="f-right">351</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <style type="text/css">
+    body{
+        background:#9494941a;
+    }
+    .order-card {
+        color: #fff;
+    }
+    
+    .bg-c-blue {
+        background: linear-gradient(45deg,#e23232,#73b4ff);
+    }
+    
+    .bg-c-green {
+        background: linear-gradient(45deg,#2e94d8,#59e0c5);
+    }
+    
+    .bg-c-yellow {
+        background: linear-gradient(45deg,#4dff5c,#ffcb80);
+    }
+    
+    .bg-c-pink {
+        background: linear-gradient(45deg,#ff53cb,#3706aa);
+    }
+    
+    
+    .card {
+        border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+        box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+        border: none;
+        margin-bottom: 30px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .card .card-block {
+        padding: 25px;
+    }
+    
+    .order-card i {
+        font-size: 26px;
+    }
+    
+    .f-left {
+        float: left;
+    }
+    
+    .f-right {
+        float: right;
+    }
+    </style>
+    <section class="section gray-bg" id="blog">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="section-title">
+                        <h2>Các sản phẩm của chúng tôi</h2>
+                        <p>Chúng tôi cam kết những mặt hàng shop bán ra 100% là hàng fa ke nên khách hàng yên tâm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog-grid">
+                        <div class="blog-img">
+                            <div class="date">sale 50%</div>
+                            <a href="404 error/index.html">
+                                <img src="image/1.jpg" title="" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-info">
+                            <h5><a href="#">Combo quần áo Nam ss1</a></h5>
+                            <p>Phong cách thời trang chính là thứ giúp bạn nổi bật trong đám đông!.</p>
+                            <div class="btn-bar">
+                                <a href="404 error/index.html" class="px-btn-arrow">
+                                    <span>Xem thêm</span>
+                                    <i class="arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-grid">
+                        <div class="blog-img">
+                            <div class="date">sale 50%</div>
+                            <a href="404 error/index.html">
+                                <img src="image/2.jpg" title="" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-info">
+                            <h5><a href="404 error/index.html">Combo quần áo Nam ss2</a></h5>
+                            <p>Dảm bảo hàng litmited không dụng hàng</p>
+                            <div class="btn-bar">
+                                <a href="404 error/index.html" class="px-btn-arrow">
+                                    <span>Xem thêm</span>
+                                    <i class="arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-grid">
+                        <div class="blog-img">
+                            <div class="date">sale 10%</div>
+                            <a href="404 error/index.html">
+                                <img src="image/3.jpg" title="" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-info">
+                            <h5><a href="404 error/index.html">Combo quần áo Nam ss3</a></h5>
+                            <p>Giá trị của 1 món đồ không nói lên phong cách bạn phối đồ</p>
+                            <div class="btn-bar">
+                                <a href="404 error/index.html" class="px-btn-arrow">
+                                    <span>Xem thêm</span>
+                                    <i class="arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section gray-bg" id="blog">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 text-center">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <div class="date">sale 20%</div>
+                                <a href="404 error/index.html">
+                                    <img src="image/4.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h5><a href="#">Combo quần áo Nam ss4</a></h5>
+                                <p>set quần áo thanh lịch</p>
+                                <div class="btn-bar">
+                                    <a href="404 error/index.html" class="px-btn-arrow">
+                                        <span>Xem thêm</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <div class="date">sale 5%</div>
+                                <a href="404 error/index.html">
+                                    <img src="image/5.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h5><a href="#">Combo quần áo Nam ss5</a></h5>
+                                <p>Hết contents.</p>
+                                <div class="btn-bar">
+                                    <a href="404 error/index.html" class="px-btn-arrow">
+                                        <span>Xem thêm</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <div class="date">sale 40%</div>
+                                <a href="404 error/index.html">
+                                    <img src="image/6.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h5><a href="#">Combo quần áo Nam ss6</a></h5>
+                                <p>Hết contents</p>
+                                <div class="btn-bar">
+                                    <a href="404 error/index.html" class="px-btn-arrow">
+                                        <span>Read More</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section gray-bg" id="blog">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 text-center">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <div class="date">sale 20%</div>
+                                <a href="404 error/index.html">
+                                    <img src="image/4.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h5><a href="#">Combo quần áo Nam ss4</a></h5>
+                                <p>set quần áo thanh lịch</p>
+                                <div class="btn-bar">
+                                    <a href="404 error/index.html" class="px-btn-arrow">
+                                        <span>Xem thêm</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <div class="date">sale 5%</div>
+                                <a href="404 error/index.html">
+                                    <img src="image/5.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h5><a href="#">Combo quần áo Nam ss5</a></h5>
+                                <p>Hết contents.</p>
+                                <div class="btn-bar">
+                                    <a href="404 error/index.html" class="px-btn-arrow">
+                                        <span>Xem thêm</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <div class="date">sale 40%</div>
+                                <a href="404 error/index.html">
+                                    <img src="image/6.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h5><a href="#">Combo quần áo Nam ss6</a></h5>
+                                <p>Hết contents</p>
+                                <div class="btn-bar">
+                                    <a href="404 error/index.html" class="px-btn-arrow">
+                                        <span>Read More</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center pb-5 mb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
+                    <h2>Một Số Sản Phẩm hot nhất hiện nay</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+                    <div class="block-7">
+                        <div class="img" style="background-image: url(image/7.jpg);"></div>
+                        <div class="text-center p-4">
+                            <span class="excerpt d-block">Nội địa</span>
+                            <span class="price"><sup>$</sup> <span class="number">7</span> <sub></sub></span>
+                            <ul class="pricing-text mb-5">
+                                <li><span class="fa fa-check mr-2"></span>Hàng săn sale</li>
+                                <li><span class="fa fa-check mr-2"></span>dảm bảo dụng vỡ mặt</li>
+                                <li><span class="fa fa-check mr-2"></span>giá x3 shoppe</li>
+                                <li><span class="fa fa-check mr-2"></span>bao rách</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary d-block px-2 py-3">Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+                    <div class="block-7">
+                        <div class="img" style="background-image: url(image/8.jpg);"></div>
+                        <div class="text-center p-4">
+                            <span class="excerpt d-block">Nhập Khẩu</span>
+                            <span class="price"><sup>$</sup> <span class="number">19</span> <sub></sub></span>
+                            <ul class="pricing-text mb-5">
+                                <li><span class="fa fa-check mr-2"></span>Hàng săn sale</li>
+                                <li><span class="fa fa-check mr-2"></span>dảm bảo dụng vỡ mặt</li>
+                                <li><span class="fa fa-check mr-2"></span>giá x3 shoppe</li>
+                                <li><span class="fa fa-check mr-2"></span>bao rách</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary d-block px-2 py-3">Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+                    <div class="block-7">
+                        <div class="img" style="background-image: url(image/9.jpg);"></div>
+                        <div class="text-center p-4">
+                            <span class="excerpt d-block">Thế giới</span>
+                            <span class="price"><sup>$</sup> <span class="number">99</span> <sub></sub></span>
+                            <ul class="pricing-text mb-5">
+                                <li><span class="fa fa-check mr-2"></span>Hàng săn sale</li>
+                                <li><span class="fa fa-check mr-2"></span>dảm bảo dụng vỡ mặt</li>
+                                <li><span class="fa fa-check mr-2"></span>giá x3 shoppe</li>
+                                <li><span class="fa fa-check mr-2"></span>bao rách</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary d-block px-2 py-3">Mua Ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <section class="deneb_cta">
+        <div class="container">
+            <div class="cta_wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="cta_content">
+                            <h3>Bạn có thắc mắc gì về dịch vụ của chúng tôi ?</h3>
+                            <p>Nếu có sai sót gì vui lòng liên hệ ở phần bên dưới để dược hỗ trợ nhanh nhất.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="button_box">
+                            <a href="#" class="btn btn-warning">Liên Hệ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="deneb_footer">
+        <div class="widget_wrapper" style="background-image: url(http://demo.tortoizthemes.com/deneb-html/deneb-ltr/assets/images/footer_bg.png);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="widget widegt_about">
+                            <div class="widget_title">
+                                <img src="assets/images/logo_1.png" class="img-fluid" alt="">
+                            </div>
+                            <p>Trang mạng xã hội của chúng tôi </p>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="widget widget_link">
+                            <div class="widget_title">
+                                <h4>Liên kết</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">Về Chúng Tôi</a></li>
+                                <li><a href="#">Dịch Vụ</a></li>
+                                <li><a href="#">Danh Mục Đầu Tư</a></li>
+                                <li><a href="#">liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="widget widget_contact">
+                            <div class="widget_title">
+                                <h4>Liên hệ chúng tôi</h4>
+                            </div>
+                            <div class="contact_info">
+                                <div class="single_info">
+                                    <div class="icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="info">
+                                        <p><a href="tel:+849999999">+849999999</a></p>
+                                        <p><a href="tel:+84123456789">+84123456789</a></p>
+                                    </div>
+                                </div>
+                                <div class="single_info">
+                                    <div class="icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="info">
+                                        <p><a href="son@dev.com">son@dev.com</a></p>
+                                        <p><a href="sondzvcl@dev.com">sondzvcl@dev.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="single_info">
+                                    <div class="icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="info">
+                                        <p>999, 148 định hóa<span>Thái Nguyên</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright_text">
+                            <p>Copyright &copy;by 2022 NGO GIA NHAT SON.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <div class="container bootstrap snippets bootdeys">
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
